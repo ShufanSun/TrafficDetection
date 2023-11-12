@@ -30,7 +30,7 @@ while cap.isOpened():
             filename = f'./Temporary/frame{i}.jpg'
             image.save(filename)
             
-            i += 20
+            i += 5
             cap.set(cv2.CAP_PROP_POS_FRAMES, i)
             print(i)
     else:
