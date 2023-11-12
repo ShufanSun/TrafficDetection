@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 from PIL import Image
 import cv2
-from LaneDetection import LaneDetector
+# from LaneDetection import LaneDetector
 model = YOLO("yolov8-trained.pt")
 
 results = model(['./Images/lane2.jpg', './Images/lane3.jpg'], stream=True)  # return a generator of Results objects
