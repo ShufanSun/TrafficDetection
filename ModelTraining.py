@@ -8,7 +8,7 @@ from IPython.display import HTML
 from IPython.core.display import Video
 from moviepy.editor import VideoFileClip
 from cam_calib import camera_calibrate
-lanes = cv2.imread('./Images/lane.png')
+lanes = cv2.imread('./Images/lane2.jpg')
 gray = cv2.cvtColor(lanes, cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray, 50, 150, apertureSize=3)
 kernel = np.ones((1, 1), np.uint8)  # Adjust the size of the kernel for erosion
@@ -108,15 +108,16 @@ pts = np.array([
     [right_line[0][2], right_line[0][3]],
     [right_line[0][0], right_line[0][1]]
 ], np.int32)
+print(pts)
 alpha = 0.4  # Alpha value for transparency (0 = transparent, 1 = opaque)
 color = (0, 255, 0, int(255 * alpha))  # The color (0, 255, 0) with alpha transparency
 
-pts = np.array([
-   [top_left_x, center_top_y],
-   [left_line[0][2], left_line[0][3]],
-   [right_line[0][2], right_line[0][3]],
-   [right_line[0][0], right_line[0][1]]
-], np.int32)
+# pts = np.array([
+#    [top_left_x, center_top_y],
+#    [left_line[0][2], left_line[0][3]],
+#    [right_line[0][2], right_line[0][3]],
+#    [right_line[0][0], right_line[0][1]]
+# ], np.int32)
 
 overlay = lanes.copy()
 cv2.fillPoly(overlay, [pts], color)
