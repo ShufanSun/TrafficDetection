@@ -1,9 +1,6 @@
 from ultralytics import YOLO
-import os
 import cv2
 import numpy as np
-import docopt
-import glob
 from IPython.display import HTML
 from IPython.core.display import Video
 from moviepy.editor import VideoFileClip

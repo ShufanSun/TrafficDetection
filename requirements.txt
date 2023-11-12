@@ -1,11 +1,10 @@
-docopt==0.6.2
 ipython==8.17.2
 moviepy==1.0.3
 numpy==1.26.1
 opencv_contrib_python==4.8.1.78
 opencv_python==4.8.1.78
 opencv_python_headless==4.8.1.78
-Pillow==10.0.1
 Pillow==10.1.0
 torch==2.1.0
 ultralytics==8.0.208
+openvino==2023.1.0
