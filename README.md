@@ -10,7 +10,7 @@ The project drew inspiration from the need for robust real-time lane detection s
 The project utilizes a pre-trained deep learning model trained by Roboflow to perform real-time lane detection on video feeds. Leveraging advanced computer vision techniques in OpenCV, it accurately identifies and outlines lanes within the video frames, providing a clear visual representation of the road structure from the first person driving view.
 
 ## How we built it
-The system was built using a combination of computer vision libraries in python and a pre-trained deep learning model specifically designed for lane detection. By integrating these tools, the project processed live video streams, applying the model's predictions to recognize and box lanes in real time.
+The system was built using a combination of computer vision libraries in python and a self-trained deep learning model specifically designed for lane detection. By integrating these tools, the project processed live video streams, applying the model's predictions to recognize and box lanes in real time.
 
 ## Challenges we ran into
 Challenges included optimizing the model for real-time performance, ensuring accurate lane identification under varying environmental conditions (e.g., different lighting and weather), and integrating the system seamlessly with live video feeds. I found things hard because I couldn't make my image processing algorithms handle all potential cases when it comes to lane detection in opencv.
