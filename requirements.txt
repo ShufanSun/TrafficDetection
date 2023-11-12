@@ -1,0 +1,7 @@
+docopt==0.6.2
+ipython==8.17.2
+moviepy==1.0.3
+numpy==1.26.1
+opencv_contrib_python==4.8.1.78
+opencv_python==4.8.1.78
+ultralytics==8.0.208
