@@ -12,6 +12,11 @@ The project utilizes a self-trained deep learning model trained by Roboflow to p
 # Link to Trained Model:
 [Lane Detector Model](https://universe.roboflow.com/workspace-yhaph/lane-detection-segmentation-ovgem)
 
+# Link to Video Demo of the Project:
+[Asynchronous Video Demo](https://www.youtube.com/watch?v=K6T6udcQw_c)
+
+[Real-Time Video demo](https://studio.youtube.com/video/3T2vT78VVpU/edit)
+
 ## How we built it
 The system was built using a combination of computer vision libraries in python and a self-trained deep learning model specifically designed for lane detection. By integrating these tools, the project processed live video streams, applying the model's predictions to recognize and box lanes in real time.
 
